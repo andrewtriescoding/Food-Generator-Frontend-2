@@ -17,9 +17,9 @@ const submitFood = () => {
   console.log("test");
 };
 
-const userLogin = async () => {
+const getMeals = async () => {
   try {
-    const response = await fetch(localhost:8000/recipe, {
+    const response = await fetch('localhost:8000/recipe', {
       method: 'POST',
       body: JSON.stringify({
         ingredient: this.ingredient
@@ -38,4 +38,5 @@ const userLogin = async () => {
   }
 }
 
+generateBtn.addEventListener('click', getMeals)
 submit.addEventListener('click', submitFood);
