@@ -1,0 +1,40 @@
+#cook {
+    position: relative;
+    text-align: center;
+    top: 700px;
+    z-index: 1
+}
+
+#title {
+    position: relative;
+    text-align: center;
+    top: 200px
+}
+
+#one {
+    width: 400px;
+    height: 300px;
+    position: relative;
+    top: 200px
+}
+
+#two {
+    width: 400px;
+    height: 300px;
+    position: relative;
+    left: 500px
+}
+
+#three {
+    width: 400px;
+    height: 300px;
+    position: relative;
+    left: 1000px
+}
+
+#four {
+    width: 400px;
+    height: 300px;
+    position: relative;
+    left: 1500px
+}
