@@ -1,0 +1,89 @@
+body {
+    background-image: url('blank-open-notebook-isolated-over-a-transparent-background-business-stationery-school-art-or-craft-supply-top-view-ai-generated-free-photo.jpg');
+    background-position: center;
+    background-size: 2250px 1800px;
+}
+
+#backBtn {
+    position: relative;
+    left: 100px;
+    top: 100px
+}
+
+h1 {
+    position: relative;
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
+
+h3 {
+    position: relative;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#foodHere {
+    position: relative;
+    left: 450px;
+}
+
+#submitBtn {
+    position: relative;
+    left: 810px;
+    bottom: 70px;
+    background-color: #000000;
+    border: 2px solid #1A1A1A;
+    border-radius: 15px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    display: inline-block;
+    font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: none;
+    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+}
+
+#submitBtn:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+}
+
+p {
+    position: relative;
+    left: 650px;
+    bottom: 28.5px
+}
+
+#generateBtn {
+    position: fixed;
+    text-align: center;
+    left: 795px;
+    top: 475px;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: transparent 0 0 0 3px,rgba(18, 18, 18, .1) 0 6px 20px;
+    box-sizing: border-box;
+    color: #121212;
+    display: inline-flex;
+    flex: 1 1 auto;
+    font-family: Inter,sans-serif;
+    font-size: 1.7rem;
+    font-weight: 700px;
+    transition: box-shadow .2s,-webkit-box-shadow .2s;
+}
+
+#generateBtn:hover {
+    box-shadow: #121212 0 0 0 3px, transparent 0 0 0 0;
+  }
+
+#foodItems {
+    position: relative;
+    left: 480px;
+    bottom: 60px;
+}
+
+<!-- HTML !-->
+<button class="button-35" role="button">Button 35</button>

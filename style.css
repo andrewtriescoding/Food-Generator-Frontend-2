@@ -1,40 +1,26 @@
-#cook {
-    position: relative;
-    text-align: center;
-    top: 700px;
-    z-index: 1
+body::after {
+    content: "";
+    background: url('appetizers-aarp5186-2000px.jpg');
+    opacity: 0.3;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;   
+    width: 100%;
 }
 
-#title {
-    position: relative;
-    text-align: center;
-    top: 200px
+p {
+    color: forestgreen;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 
-#one {
-    width: 400px;
+video {
+    width: 600px;
     height: 300px;
-    position: relative;
-    top: 200px
 }
 
-#two {
-    width: 400px;
-    height: 300px;
-    position: relative;
-    left: 500px
-}
-
-#three {
-    width: 400px;
-    height: 300px;
-    position: relative;
-    left: 1000px
-}
-
-#four {
-    width: 400px;
-    height: 300px;
-    position: relative;
-    left: 1500px
+h1 {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
