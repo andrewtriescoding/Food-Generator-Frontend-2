@@ -14,29 +14,30 @@ const submitFood = () => {
   };
   deleteBtn.addEventListener('click', dlt);
   ul.append(li);
-  console.log("test");
 };
 
 const getMeals = async () => {
   try {
-    const response = await fetch('localhost:8000/recipe', {
+    const lis = ul.querySelectorAll('li');
+    const ingredients = Array.from(lis).map(li => li.textContent.trim());
+    const response = await fetch('http://10.232.43.66:8000/recipe/', {
       method: 'POST',
       body: JSON.stringify({
-        ingredient: this.ingredient
+        'ingredients': ingredients
       }),
       headers: {
         'content-type': 'application/json'
       }
-    })
+    });
     if (response.ok) {
       const jsonResponse = await response.json();
-      return jsonResponse
+      return jsonResponse;
     } 
   } 
   catch (error) {
-    console.log(error)
+    console.log(error);
   }
-}
+};
 
-generateBtn.addEventListener('click', getMeals)
 submit.addEventListener('click', submitFood);
+generateBtn.addEventListener('click', getMeals)
