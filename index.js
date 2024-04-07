@@ -1,5 +1,5 @@
-const submitBtn = document.getElementById('submitBtn');
-const generateBtn = document.getElementById('generateBtn');
+const submit = document.getElementById('submitButton');
+const generateBtn = document.getElementById('generateButton');
 const ul = document.getElementById('foodItems');
 const inputFood = document.getElementById('foodHere');
 
@@ -17,4 +17,25 @@ const submitFood = () => {
   console.log("test");
 };
 
-submitBtn.addEventListener('click', submitFood);
+const userLogin = async () => {
+  try {
+    const response = await fetch(localhost:8000/recipe, {
+      method: 'POST',
+      body: JSON.stringify({
+        ingredient: this.ingredient
+      }),
+      headers: {
+        'content-type': 'application/json'
+      }
+    })
+    if (response.ok) {
+      const jsonResponse = await response.json();
+      return jsonResponse
+    } 
+  } 
+  catch (error) {
+    console.log(error)
+  }
+}
+
+submit.addEventListener('click', submitFood);
